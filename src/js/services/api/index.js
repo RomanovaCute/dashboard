@@ -23,7 +23,7 @@ class ApiService {
             requestData = JSON.stringify(data)
         }
 
-        const response = await fetch(`http://${host}/${url}${encodeStr}`, {
+        const response = await fetch(`https://${host}/${url}${encodeStr}`, {
             headers: {
                 'Content-type': 'application/json'
             },
