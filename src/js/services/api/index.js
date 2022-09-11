@@ -29,7 +29,7 @@ class ApiService {
             },
             method,
             body: requestData,
-            referrerPolicy: "unsafe_url"
+            referrerPolicy: "unsafe-url"
         })
         .catch(e => {
             if (!e.response) {
@@ -47,6 +47,7 @@ class ApiService {
 
         if ([200, 201].includes(response.status)) {
             const result = await response.json();
+            console.log(result.data);
             return {
                 success: true,
                 data: result.data
