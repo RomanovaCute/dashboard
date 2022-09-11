@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/RomanovaCute/dashboard/",
   "scripts": {
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development",
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rinelle/dashboard.git"
+    "url": "git+https://github.com/RomanovaCute/dashboard.git"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/Rinelle/dashboard/issues"
   },
-  "homepage": "https://github.com/Rinelle/dashboard/",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",

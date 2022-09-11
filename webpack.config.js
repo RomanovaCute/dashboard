@@ -57,12 +57,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: './index.html',
-            template: './src/html/index.html',
+            template: './index.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
             filename: './todo.html',
-            template: './src/html/todo.html',
+            template: './todo.html',
             chunks: ['todo']
         }),
         new MiniCssExtractPlugin({
