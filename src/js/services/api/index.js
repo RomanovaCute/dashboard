@@ -23,12 +23,13 @@ class ApiService {
             requestData = JSON.stringify(data)
         }
 
-        const response = await fetch(`https://${host}/${url}${encodeStr}`, {
+        const response = await fetch(`http://${host}/${url}${encodeStr}`, {
             headers: {
                 'Content-type': 'application/json'
             },
             method,
-            body: requestData
+            body: requestData,
+            referrerPolicy: "unsafe_url"
         })
         .catch(e => {
             if (!e.response) {
