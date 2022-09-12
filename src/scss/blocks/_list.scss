@@ -29,9 +29,7 @@
     display: flex;
     flex-grow: 1;
 }
-.det-text-opacity{
-    opacity: 0.5;
-}
+
 .dot {
     height: 15px;
     width: 15px;
@@ -41,6 +39,9 @@
 .dot-color{
     background-color: $tag-blue;
     margin-right: 20px;
+}
+.pic-close{
+    cursor: pointer;
 }
 .layer {
     overflow: auto; 
