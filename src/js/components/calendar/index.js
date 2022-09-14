@@ -59,6 +59,4 @@ function BuildCalendar() {
 
 
 
-export {
-    BuildCalendar
-}
+export { BuildCalendar };
