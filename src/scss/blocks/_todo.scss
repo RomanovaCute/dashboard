@@ -10,12 +10,17 @@
     flex-direction: column;
     padding: 20px;
     border-radius: 4px;
+
+    &__title{
+        margin-bottom: 8px;
+    }
+
+    h3{
+        font-size: $event-plans;
+        font-weight: 500;
+    }
 }
 
-h2 {
-    font-size: $event-plans;
-    margin-bottom: 8px;
-}
 
 .button {
     @include button;
