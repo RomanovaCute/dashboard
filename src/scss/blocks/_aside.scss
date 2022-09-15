@@ -5,6 +5,14 @@
     flex-direction: column;
     background: $base-middle;
     align-self: stretch;
+
+    &__title{
+        width: 322px;
+        padding: 10px 0;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #4940ae;
+    }
 }
 
 .close-events-cards {
@@ -16,13 +24,14 @@
     font-family: $base-font;
     color: $text-color;
     font-size: $event-plans;
-    gap: 25px;
+    gap: 20px;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-bottom: 10px;
 
     &__title {
         font-weight: 500;
-        color: $text-color;
+        color: #4940ae;
     }
 }
 
@@ -33,7 +42,7 @@
     position: relative;
     background: $base-light;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     line-height: 14px
 }
 

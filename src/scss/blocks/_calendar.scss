@@ -22,6 +22,7 @@
     color: $base-light;
     font-size: 28px;
     font-weight: 700;
+    border-radius: 4px 4px 0 0;
 }
 
 
@@ -52,8 +53,7 @@
     grid-template-columns: repeat(7, 1fr);
     color: $text-color;
     font-size: $tag-date-event;
-
-
+    border-radius: 0 0 4px 4px;
 }
 
 .important-event {
