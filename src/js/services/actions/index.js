@@ -27,18 +27,17 @@ class EventActions {
                 box = document.querySelector('.business-today_list');
             box.innerHTML = ''
 
+            tasksArr.sort((elem1, elem2) => elem1.completeDate > elem2.completeDate ? 1 : -1);
             tasksArr.forEach(elem => {
-
                 const time = new Date(elem.completeDate);
                 let hours, minutes, correctTime;
 
                 function formatTime (time){
                     hours = String(time.getHours()).padStart(2,0),
                     minutes = String(time.getMinutes()).padStart(2,0)
-
                     correctTime = `${hours}:${minutes}`;
                 }
-
+                
                 formatTime(time);
             
                 const details = document.createElement('div');
