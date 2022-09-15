@@ -23,6 +23,8 @@ class Datepicker {
             }
             onSubmit(timeValue);
         }));
+
+        this.datepickerInput.value = new Date().toLocaleDateString();
     }
 
     reset() {
