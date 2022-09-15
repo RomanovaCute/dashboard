@@ -7,13 +7,15 @@ import {navigations} from './js/components/nav';
 import { Todo } from './js/components/todo';
 import EventActions from "./js/services/actions";
 import { getClosestEvents } from './js/components/close-events-cards';
+import {BuildCharts} from './js/components/charts'
 
 window.addEventListener('DOMContentLoaded', () => {
     labels();
     navigations();
-
+    
     getClosestEvents();
     BuildCalendar();
+    BuildCharts()
 });
 
 

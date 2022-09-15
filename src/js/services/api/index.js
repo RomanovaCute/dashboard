@@ -47,7 +47,6 @@ class ApiService {
 
         if ([200, 201].includes(response.status)) {
             const result = await response.json();
-            console.log(result.data);
             return {
                 success: true,
                 data: result.data
